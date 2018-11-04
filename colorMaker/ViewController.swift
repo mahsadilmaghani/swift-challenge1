@@ -21,10 +21,11 @@ class ViewController:UIViewController {
     @IBOutlet var colorView: UIView!
     
     @IBOutlet weak var redSlider: UISlider!
-    
     @IBOutlet weak var greenSlider: UISlider!
-    
     @IBOutlet weak var blueSlider: UISlider!
+    @IBOutlet weak var redSwitch: UISwitch!
+    @IBOutlet weak var greenSwitch: UISwitch!
+    @IBOutlet weak var blueSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +48,7 @@ class ViewController:UIViewController {
     @IBAction func redSlider(_ sender: UISlider) {
         if isRedSwitchOn {
             redValue = CGFloat(sender.value);
-            print("Red slider value ", redValue)
+            //print("Red slider value ", redValue)
             colorView.backgroundColor = getColor()
         }
     }
@@ -68,7 +69,7 @@ class ViewController:UIViewController {
         if isGreenSwitchOn {
             greenValue = CGFloat(sender.value)
             colorView.backgroundColor = getColor()
-            print("Green slider value ", greenValue)
+            //print("Green slider value ", greenValue)
         }
     }
     
@@ -88,7 +89,7 @@ class ViewController:UIViewController {
         if isBlueSwitchOn {
             blueValue = CGFloat(sender.value);
             colorView.backgroundColor = getColor()
-            print("Blue slider value ", blueValue)
+            //print("Blue slider value ", blueValue)
         }
     }
     
@@ -99,12 +100,15 @@ class ViewController:UIViewController {
    
     @IBAction func resetButton (_ sender: UIButton) {
         resetTapped()
-        print("yes")
     }
     func resetTapped() {
         redSlider.value = 0.0
         greenSlider.value = 0.0
         blueSlider.value = 0.0
+        colorView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
+        redSwitch.isOn = false
+        greenSwitch.isOn = false
+        blueSwitch.isOn = false
     }
 }
 

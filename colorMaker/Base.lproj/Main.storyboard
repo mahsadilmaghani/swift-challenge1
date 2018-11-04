@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="SJ0-rN-kqW">
-                                <rect key="frame" x="184" y="290" width="118" height="30"/>
+                                <rect key="frame" x="184" y="320" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="thumbTintColor" red="1" green="0.081321229716778798" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -26,7 +26,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wGk-3e-o9A">
-                                <rect key="frame" x="186" y="364" width="118" height="30"/>
+                                <rect key="frame" x="186" y="394" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="thumbTintColor" red="0.011006390256477983" green="1" blue="0.35915968652458186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -34,7 +34,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eJv-zg-Lyi">
-                                <rect key="frame" x="188" y="430" width="118" height="30"/>
+                                <rect key="frame" x="188" y="460" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="thumbTintColor" red="0.059526479592311943" green="0.1684919165663108" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -42,28 +42,28 @@
                                 </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XjI-Wi-Gfg">
-                                <rect key="frame" x="63" y="290" width="49" height="31"/>
+                                <rect key="frame" x="63" y="320" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="redSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="MHX-g4-aoQ"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YAi-UJ-FNA">
-                                <rect key="frame" x="63" y="363" width="49" height="31"/>
+                                <rect key="frame" x="63" y="393" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="greenSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="MBm-Gx-eDt"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nn9-yC-HO9">
-                                <rect key="frame" x="63" y="430" width="49" height="31"/>
+                                <rect key="frame" x="63" y="460" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="blueSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="y4t-cS-LmA"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4F-wB-xqQ">
-                                <rect key="frame" x="164" y="497" width="46" height="34"/>
+                                <rect key="frame" x="164" y="527" width="46" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Reset">
@@ -74,29 +74,29 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3B-Ry-GdW">
-                                <rect key="frame" x="68" y="123" width="240" height="128"/>
+                                <rect key="frame" x="68" y="153" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Make your own color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnQ-f6-q66">
-                                <rect key="frame" x="109" y="75" width="168" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make your own color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnQ-f6-q66">
+                                <rect key="frame" x="109" y="105" width="168" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.46443895725388606" green="0.010815088323540728" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.53052870379999995" green="0.83147555200000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="LnQ-f6-q66" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KMr-3d-f40"/>
-                            <constraint firstItem="LnQ-f6-q66" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lHi-0Q-jBD"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="blueSlider" destination="eJv-zg-Lyi" id="VbL-ZC-sS6"/>
+                        <outlet property="blueSwitch" destination="Nn9-yC-HO9" id="xmV-Pr-9S9"/>
                         <outlet property="colorView" destination="a3B-Ry-GdW" id="W4m-dc-ktF"/>
                         <outlet property="greenSlider" destination="wGk-3e-o9A" id="jA6-sg-Y2a"/>
+                        <outlet property="greenSwitch" destination="YAi-UJ-FNA" id="hoZ-cH-Kys"/>
                         <outlet property="redSlider" destination="SJ0-rN-kqW" id="JJq-Qk-89i"/>
+                        <outlet property="redSwitch" destination="XjI-Wi-Gfg" id="fj3-lC-Ig8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
